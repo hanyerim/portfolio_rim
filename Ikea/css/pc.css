@@ -1,0 +1,461 @@
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Nanum+Gothic+Coding" rel="stylesheet">
+#wrap{
+    width: 100%;
+    height: 100%;
+}
+header{
+      width: 100%;
+    height: 130px;
+    background-color: aqua;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#logo_header{
+    width: 100%;
+    height: 50px;
+    background-color: #025c98;
+    position: relative;
+    top: 0;
+    left: 0; 
+}
+#logo{
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../IMG/logo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#menu_header{
+    width: 100%;
+    height: 80px;
+    position: relative;
+    top: 0;
+    left: 0;    
+    background-color: #f1f2f2;
+}
+#menu{
+    width: 40%;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+}
+#menu>li{
+    width: auto;
+    height: 80px;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    line-height: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.sub_menu{
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    display: none;
+}
+
+/*--------------------------------header end------------------------------*/
+
+section{
+    width: 100%;
+    height: 3000px;
+    position: relative;
+    top: 0;
+}
+#sec_1{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: skyblue;
+}
+#slide_1{
+    width: 100%;
+    height: 100%;
+    background-image: url(../IMG/slide1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Do Hyeon', sans-serif;
+}
+#text_s1{
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 310px;
+    left: 635px;
+}
+#text_s1>h1{
+    font-size: 25px;
+}
+#text_s1>p{
+    position: relative;
+    top: 80px;
+    font-size: 20px;
+     line-height: 45px;
+    font-weight: lighter;
+}
+#more{
+    top: 100px !important;
+   font-size: 20px !important;
+}
+#more>a{
+    position: absolute;
+     right: 0;
+    color: #025c98;
+    font-weight: 900;
+}
+#more>a:hover{
+    color: #3c8abe;
+    text-decoration: underline;
+}
+/*---------------------section1 end------------------------------*/
+#sec_2{
+    width: 100%;
+    height: 1700px;
+    position: relative;
+    top: 200px;
+    left: 0;
+    background-color: #fff;
+}
+#bed, #sofa{
+    width: 1600px;
+    height: 900px;
+    position: absolute;
+}
+.back_box{
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+}
+.back_box>h1{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+#blue_box>h1{
+    left: 250px;
+}
+.back_box>p{
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+#blue_box>p{
+    left: 250px;
+}
+.back_box>p>a{
+    position: relative;
+    top: 155px;
+    left: 600px;
+    line-height: 45px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;color: #025c98;
+    font-weight: 900;
+}
+#sofa_more>a{
+    left: 500px;
+}
+.back_box>p>a:hover{
+    color: #3c8abe;
+    text-decoration: underline;
+}
+.front_box{
+    width: 500px;
+    height: 500px;
+    top: 250px;
+    background-color: #eceeed;
+    position: absolute;
+    transform: scale(1);
+    transition-duration: 1s;
+}
+.front_box:hover{
+    transform: scale(1.1);
+}
+#bed{
+    left: 0;
+    top: -200px;
+}
+#yellow_box{
+    background-color: #ffe8b4;
+    bottom: 0;
+    left: 0;
+}
+#bed_box{
+    right: 350px;
+    box-shadow: -53px 55px 200px -100px #5b5b5b;
+}
+#bed_img{
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../IMG/bed.png);
+}
+
+#sofa{
+    bottom: 150px;
+    right: 0px;
+}
+#blue_box{
+    background-color: #c9e5ff;
+    bottom: 0;
+    right: 0;
+}
+#color_box{
+    width: 220px;
+    height: 30px;
+    position: absolute;
+    top: 530px;
+    left: 900px;
+}
+#color_ul{
+    width: 220px;
+    height: 30px;
+    position: relative;
+}
+#color_ul>li{
+    float: left;
+    margin-left: 20px;
+}
+.color{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+#c1{
+    background-color: #513e32;
+}
+#c2{
+    background-color: #d2c1ad;
+}
+#c3{
+    background-color: #000000;
+}
+#c4{
+    background-color: #d3654d;
+}
+#sofa_box{
+    left: 250px;
+    box-shadow: 53px 55px 200px -100px #5b5b5b;
+}
+#sofa_img{
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../IMG/sofa.png);
+}
+
+
+
+/*---------------------section2 end------------------------------*/
+#sec_3{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 0;
+    background-image: url(../IMG/sec_3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#black{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    background-color: #111111;
+    opacity: 0.8;
+}
+#sec_3_text{
+    width: 900px;
+    height: 200px;
+    position: absolute;
+    top: 20%;
+    left: 27%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+#sec_3_text>p{
+    margin-bottom: 20px;
+}
+#sec_3_text>h1{
+    font-size: 50px;
+}
+
+/*---------------------section3 end------------------------------*/
+#sec_4{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 200px;
+}
+#collect{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;   
+    background-image: url(../IMG/collect.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#collect>p{
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    top: 180px;
+    right: 450px;
+    font-weight: 900;
+}
+/*---------------------section4 end------------------------------*/
+#sec_5{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+#notice_box{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 18%;
+}
+.noti{
+    width: calc(100%/3.165);
+    height: 500px;
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+#notice_1{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.noti>a>img{
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.noti:hover a>img{
+ transform: scale(1.2);
+    cursor: pointer;
+}
+.noti:hover .sub_box{
+    height: 0;
+    display: inline-block;
+}
+#notice_2{
+    margin-right: 20px;
+}
+#notice_3{
+    background-position: left;
+}
+.sub_box{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+    transition: 0.3s ease;
+}
+.sub_black{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+}
+.white{
+    background-color: #fff;
+}
+.text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 15%;
+    z-index: 9;
+    color: #1d1d1d;
+    text-align: center;
+    margin: 0 auto;    
+}
+#text_2{
+    color: #fff;
+}
+.text>h1{
+    font-size: 20px;
+    font-weight: 100;
+}
+.text>p{
+    font-size: 25px;
+    font-weight: 900;
+}
+#story{
+    line-height: 55px;
+    color: #025c98;
+}
+/*---------------------section4 end------------------------------*/
+footer{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-color: #025c98; 
+}
+#text_footer{
+    width: 90%;
+    height: 30%;
+    position: relative;
+    top:30px;      
+    left: 50px;
+    float: left;
+}
+#text_footer>h2{
+    color: #fed502;
+}
+#text_footer>p{
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 900;
+    color: #fff;
+}
+#last{
+    margin-top: 15px;  
+}
+#right_text{
+    float: right;
+    position: relative;
+    right: 0;
+}
